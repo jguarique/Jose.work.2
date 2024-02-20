@@ -35,9 +35,11 @@ Podemos conseguir campamentos de CSS, cursos tanto pagos como gratuitos por ejem
 disponemos de páginas web que nos ofrecen juegos basados en la práctica de código CSS
 que nos ayudan a familiarizarnos, estas pueden ser:
 
-   Flexbox Froogy
-   CSS Grid Garden
-   CSS Diner
+   1- Flexbox Froogy
+   
+   2- CSS Grid Garden
+   
+   3- CSS Diner
 
 **Sintaxis básica de CSS:**
 
