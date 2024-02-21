@@ -44,10 +44,46 @@ que nos ayudan a familiarizarnos, estas pueden ser:
 **Sintaxis básica de CSS:**
 
 6. ¿Cómo se escribe una regla CSS?
+
+Para colocar una regla CSS tendremos 
+nuestro selector que podria ser un elemento, una clase,
+un root, o un id. Luego dentro de unas cejillas "{}" (a esto le llamaremos
+bloque de declaracion) colocamos nuestras dos declaraciones
+con su propiedad y valor quedando así:
+
+h1, clase, #id {propiedad: valor; propiedad: valor;}
+
 7. ¿Qué son los selectores CSS?
+
+Los selectores CSS son el valor de nuestra regla que manda a llamar
+el elemento, clase, o id al que queramos aplicarle una propiedad de css.
+
 8. ¿Qué son las propiedades CSS?
+
+Las propiedades de nuestra regla CSS es el cambio visual que 
+queremos aplicarle al selector que elejimos, como pueden ser
+el background-color, el font-size, etc...
+
 9. ¿Qué son los valores CSS?
+
+Un valor de CSS es el atributo de ese cambio visual 
+que queremos cambiar pudiendo ser el color de nuestro background-color o
+los px, em o rem de nuestro font-size.
+
 10. ¿Cómo se aplica un estilo CSS a un elemento HTML?
+
+Hay tres modos para aplicar un estilo CSS a un elemento HTML.
+
+Colocar la etiqueta <styles> dentro del <head> de nuestro HTML
+y dentro de nuestra etiqueta styles colocar nuestro código de CSS.
+
+Estilos embebidos, esta forma de aplicar un estilo CSS es escribiendo nuestro style
+directamente en nuestro elemeto por ejemplo:
+
+<main>
+   <h1 style="color: blue;">HOLA</h1>
+</main>
+
 
 **Selectores CSS:**
 
