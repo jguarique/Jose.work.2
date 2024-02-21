@@ -80,9 +80,9 @@ y dentro de nuestra etiqueta styles colocar nuestro código de CSS.
 Estilos embebidos, esta forma de aplicar un estilo CSS es escribiendo nuestro style
 directamente en nuestro elemeto por ejemplo:
 
-<main>
+"<main>
    <h1 style="color: blue;">HOLA</h1>
-</main>
+</main>"
 
 
 **Selectores CSS:**
