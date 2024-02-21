@@ -78,12 +78,17 @@ Colocar la etiqueta <styles> dentro del <head> de nuestro HTML
 y dentro de nuestra etiqueta styles colocar nuestro código de CSS.
 
 Estilos embebidos, esta forma de aplicar un estilo CSS es escribiendo nuestro style
-directamente en nuestro elemeto por ejemplo:
+directamente en nuestro elemeto, por ejemplo dentro de nuestro elemento colocaremos
+como atributo "style" y como valor la propiedad y valor de CSS que querramos aplicar.
 
-<!--<main>
-   <h1 style="color: blue;">HOLA</h1>
-</main>"---
-**Selectores CSS:-->
+Hoja de estilos, este método es el más recomendable para aplicar
+reglas CSS, lo hacemos linkeando nuestro archivo index con la hoja de estilos 
+que va a tener nuestro código de CSS con las siguientes líneas de código:
+
+<"head">
+ link rel="stylesheet" href="./styles.css"
+ <"head">
+
 
 11. ¿Qué tipos de selectores CSS existen?
 12. ¿Cómo seleccionar elementos por tipo?
