@@ -46,8 +46,8 @@ que nos ayudan a familiarizarnos, estas pueden ser:
 6. ¿Cómo se escribe una regla CSS?
 
 Para colocar una regla CSS tendremos 
-nuestro selector que podria ser un elemento, una clase,
-un root, o un id. Luego dentro de unas cejillas "{}" (a esto le llamaremos
+nuestro selector que podria ser por tipo, clase
+o id. Luego dentro de unas cejillas "{}" (a esto le llamaremos
 bloque de declaracion) colocamos nuestras dos declaraciones
 con su propiedad y valor quedando así:
 
@@ -91,15 +91,51 @@ que va a tener nuestro código de CSS con las siguientes líneas de código:
 
 
 11. ¿Qué tipos de selectores CSS existen?
+
+Existen selectores por tipo, id, por clase, universal, descendientes, adyacentes, pseudoclase y pseudoelementos.
+
 12. ¿Cómo seleccionar elementos por tipo?
+
+Para seleccionar por tipo vamos a elegir la etiqueta de nuestro codigo de esta manera:
+
+h1 {propiedad:valor; propiedad: valor;}
+
+
 13. ¿Cómo seleccionar elementos por ID?
+
+#id-correspondiente {propiedad: valor; propiedad: valor;}
+
 14. ¿Cómo seleccionar elementos por clase?
+
+.nombre-de-nuestra-clase {propiedad: valor; propiedad: valor;}
+
 15. ¿Cómo seleccionar elementos descendientes?
+
+En este seleccionamos un elemento dentro de otro asi:
+
+div h1 {propiedad: valor; propiead: valor;}
+
+
 16. ¿Cómo seleccionar elementos adyacentes?
+
+elemento_anterior + elemento_afectado {propiedad: valor; propiead: valor;}
 
 **Propiedades CSS básicas:**
 
 17. ¿Cómo cambiar el color del texto?
+
+h1 {color: red;}
+
 18. ¿Cómo cambiar el tamaño de la fuente?
+
+html {font-size: 62.5%;}
+
 19. ¿Cómo agregar un borde a un elemento?
+
+.clase1 {border-style: dotted;} 
+
 20. ¿Cómo modificar el margen y el relleno de un elemento?
+
+header {padding: 400px; margin: 0 auto;}
+
+
